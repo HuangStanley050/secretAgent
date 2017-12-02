@@ -108,6 +108,24 @@ html {
 
 }
 
+.nav_box_wrapper_simple {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.nav_box_wrapper_simple h2 {
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+  margin-tom: 0.75rem;
+  margin-bottom: 0.75rem;
+
+}
+
 .nav_box_wrapper h2 {
   font-family: Helvetica;
   font-size: 1rem;
@@ -295,6 +313,66 @@ html {
   color: white;
   font-weight: bold;
   margin-top: 2rem;
+
+
+
+}
+
+/***************media query section*********************/
+
+@media only screen and (min-width: 1024px) {
+
+  .nav_box_wrapper_simple {
+    display: none;
+  }
+
+}
+
+
+@media only screen and (max-width: 1024px){
+
+  .picture_box_wrapper {
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .picture_box_wrapper figure:last-child{
+    display: none;
+  }
+
+  .location_hour_wrapper {
+   width: 95.78%;
+   justify-content: space-around;
+
+  }
+
+  .location_hour_wrapper_mod {
+    width: 80%;
+  }
+
+  .footer .f_wrapper {
+    width: 100%;
+  }
+
+  .nav_box_wrapper {
+    display: none;
+  }
+
+  .main_banner_wrapper {
+    width: 100%;
+  }
+
+  .logo_wrapper {
+    width: 100%;
+  }
+
+
+
+
+
+
+
+
 
 
 
