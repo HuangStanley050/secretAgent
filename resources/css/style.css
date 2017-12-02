@@ -1,0 +1,119 @@
+html {
+  font-size: 18px;
+}
+
+.header{
+ width: 100%;
+ display: flex;
+ background-color: black;
+ font-family: Helvetica;
+ font-size: 1rem;
+ height: 3rem;
+ flex-direction: row;
+ justify-content: center;
+
+}
+
+.logo_wrapper{
+  width: 60%;
+  display: flex;
+  background-color: black;
+  justify-content: flex-start;
+}
+
+.logo_wrapper img {
+  width: 5%;
+  margin-left: 0.5rem;
+  margin-right: 1rem;
+  margin-top: 0.66rem;
+  margin-bottom: 0.66rem;
+}
+
+.logo_wrapper h1{
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: white;
+  margin-top: 0.86rem;
+  margin-bottom: 0.66rem;
+  font-weight: bold;
+
+}
+
+.main_banner {
+   min-width: 100%;
+   display: flex;
+   flex-direction:column;
+   justify-content: center;
+   align-items: center;
+   height: 25rem;
+   background: url("/home/jinkazama/FrontEnd_Local_Projects/SecretAgentSupply/resources/moto.jpeg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.main_banner_wrapper {
+
+  width: 60%;
+  display: flex;
+  align-items: center;
+
+  height: 100%;
+
+
+}
+
+.main_banner_heading {
+  width: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  margin-top: 4rem;
+}
+
+.main_banner_heading h2 {
+  margin-top: 2rem;
+
+  margin-right: 30%;
+  margin-bottom: 0.25rem;
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+}
+
+.main_banner_heading h1 {
+  margin-left: 3rem;
+  font-family: Helvetica;
+  font-size: 2rem;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 10%;
+}
+
+.nav_box {
+  display: flex;
+  background-color: firebrick;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.nav_box_wrapper {
+  display: flex;
+  width: 60%;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.nav_box_wrapper h2 {
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+  margin-tom: 0.75rem;
+  margin-bottom: 0.75rem;
+
+}
