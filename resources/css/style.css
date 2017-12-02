@@ -150,8 +150,24 @@ html {
 
   margin-top: 2rem;
   margin-bottom: 2rem;
-  
+
 
   width: 50%;
+  height: 48%;
+
+}
+
+.picture_box_wrapper figure figcaption{
+
+  font-family: Helvetica;
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+  background-color: black;
+  text-align: center;
+
+
+  width: 100%;
+  height: 25%;
 
 }
